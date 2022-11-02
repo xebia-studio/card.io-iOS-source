@@ -123,7 +123,8 @@
 		4358E6F91BFBBCBB007E07C3 /* CardIOCardholderNameTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */; };
 		4358E6FA1BFBBCCC007E07C3 /* CardIOCardholderNameTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4358E6F61BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.h */; };
 		438FDD141BFD1BF3007DC6CB /* CardIOCardholderNameTextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358E6F71BFBB35E007E07C3 /* CardIOCardholderNameTextFieldDelegate.m */; };
-		501FCCC12912863E00DC4A3C /* opencv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501FCCC02912863E00DC4A3C /* opencv2.xcframework */; };
+		501FCCC72912C17B00DC4A3C /* opencv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501FCCC02912863E00DC4A3C /* opencv2.xcframework */; };
+		501FCCC82912C17B00DC4A3C /* opencv2.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 501FCCC02912863E00DC4A3C /* opencv2.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		55CD7FA818EF777F00BB381A /* iccChoicesSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CD7FA718EF777F00BB381A /* iccChoicesSelectViewController.m */; };
 		92122C301B8C3865004D705E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92122C2F1B8C3865004D705E /* OpenGLES.framework */; };
 		92122C361B8C38E9004D705E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92263E311B84283D003FE678 /* UIKit.framework */; };
@@ -301,6 +302,17 @@
 				3E9F4C43181F03F300F33B48 /* CardIOPaymentViewController.h in CopyFiles */,
 				3E9F4C44181F03F300F33B48 /* CardIOPaymentViewControllerDelegate.h in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501FCCC92912C17B00DC4A3C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				501FCCC82912C17B00DC4A3C /* opencv2.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		92122C2B1B8C366D004D705E /* Embed Frameworks */ = {
@@ -899,7 +911,7 @@
 				A50A54C61BE3094500B669FB /* Accelerate.framework in Frameworks */,
 				92122C431B8C39D0004D705E /* CoreVideo.framework in Frameworks */,
 				92122C411B8C3986004D705E /* CoreGraphics.framework in Frameworks */,
-				501FCCC12912863E00DC4A3C /* opencv2.xcframework in Frameworks */,
+				501FCCC72912C17B00DC4A3C /* opencv2.xcframework in Frameworks */,
 				92122C401B8C3976004D705E /* Security.framework in Frameworks */,
 				92122C3E1B8C396E004D705E /* AudioToolbox.framework in Frameworks */,
 				92122C3D1B8C395F004D705E /* QuartzCore.framework in Frameworks */,
@@ -2131,6 +2143,7 @@
 				92263D6C1B83ACBB003FE678 /* Frameworks */,
 				92263D6D1B83ACBB003FE678 /* Headers */,
 				92263D6E1B83ACBB003FE678 /* Resources */,
+				501FCCC92912C17B00DC4A3C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/opencv2.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		PIx7UqPmvWKhXbWYSuUfNe2a8h8=
+		</data>
+		<key>Frameworks/opencv2.framework/Versions/A/opencv2</key>
+		<data>
+		dmYeRWnfApuQw+W8udB9LCEhO+w=
+		</data>
 		<key>Headers/CardIO.h</key>
 		<data>
 		3eXTstrH/h5t7E7ppxgwWawJ6LM=
@@ -47,6 +55,35 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/opencv2.framework/Resources</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/Resources</string>
+		</dict>
+		<key>Frameworks/opencv2.framework/Versions/A/Resources/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tu3tPz4XyIDTweJMGffcCUdcnVQAKipcFhWVK59kHxo=
+			</data>
+		</dict>
+		<key>Frameworks/opencv2.framework/Versions/A/opencv2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q8mTV+nj0GZea2UiLCdESU84I+EkjHao3Fqqbce/zDs=
+			</data>
+		</dict>
+		<key>Frameworks/opencv2.framework/Versions/Current</key>
+		<dict>
+			<key>symlink</key>
+			<string>A</string>
+		</dict>
+		<key>Frameworks/opencv2.framework/opencv2</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/opencv2</string>
+		</dict>
 		<key>Headers/CardIO.h</key>
 		<dict>
 			<key>hash2</key>
