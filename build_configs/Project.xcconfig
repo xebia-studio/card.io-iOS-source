@@ -7,8 +7,6 @@
 SDKROOT = iphoneos
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 
-HEADER_SEARCH_PATHS = $(SRCROOT)/opencv_device/include
-
 IPHONEOS_DEPLOYMENT_TARGET = 6.0
 
 GCC_C_LANGUAGE_STANDARD = c99
